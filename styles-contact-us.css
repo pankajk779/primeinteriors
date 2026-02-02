@@ -1,0 +1,17 @@
+/** style sheet for ContactUs page **/
+
+.footer{
+        
+        height:50vh;
+        background-color: lightgrey;
+        text-align:center;
+}
+
+.contact_us_numbers{
+        
+        height: 20vh;
+        width: 94vw;
+        background-color: skyblue;
+        border-radius:2vw;
+        text-align:center;
+}

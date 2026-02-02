@@ -1,0 +1,321 @@
+
+
+
+
+@font-face{
+        font-family: 'googleSansMedium';
+        src:url(GoogleSans-Medium.ttf);
+}
+
+@font-face{
+        font-family:'googleSansRegular';
+        src: url(GoogleSans-Regular.ttf);
+}
+
+.regularText{
+        font-family:googleSansRegular;
+        font-size:12px;
+}
+
+body{
+        margin: 0;
+}
+
+.image_container{
+        width:100%;
+        aspect-ratio:  1920/666;
+        overflow:hidden;
+        position:relative;
+}
+
+.mySlides_fade{
+        width: 100%;
+        max-height:fit-content;
+        position:relative;
+}
+
+.img{
+         width: 100%;
+         vertical-align:middle; 
+         display: none;
+         opacity:0.0;
+         position:absolute;
+         top:0;
+         left:0;
+}
+
+#company-logo{
+        width:200px;
+        position:absolute;
+        left:24px;
+        top: 8px;
+        cursor:pointer;
+        overflow:hidden;
+        margin:auto;
+        font-size:28px;
+        color:white;
+}
+
+#contact-buttons{
+        width:fit-content;
+        height:fit-content;
+        position:absolute;
+        right:16px;
+        top:8px;
+}
+
+#contact-us-button{
+        width:fit-content;
+        height:16/9;
+        padding: 8px 24px 8px 24px;
+        margin-right:12px;
+        border-style:solid;
+        border-width:thin;
+        border-radius:12px;
+        border-color:grey;
+        display:inline-block;
+        cursor:pointer;
+        background-color:lightgrey;
+        
+}
+
+#call-us-button{
+        width:fit-content;
+        height: 16/9;
+        padding: 8px 24px 8px 24px;
+        display:inline-block;
+        border-style:solid;
+        border-width:thin;
+        border-color:grey;
+        background-color:lightgrey;
+        border-radius:12px;
+        cursor:pointer;
+        vertical-align:center;
+}
+
+.img_text_container{
+        max-width:fit-content;
+        max-height:fit-content;
+        position:absolute;
+        top:30%;
+        left:15%;
+}
+
+.img_text_box{
+        max-width:100%;
+        max-height:fit-content;
+        position:absolute;
+        background-color:white;
+        display:none;
+}
+
+.text_box_heading{
+        font-size:40px;
+        color:white;
+}
+
+.text_box_description{
+        font-size:20px;
+        color:white;
+}
+
+.view-more-button{
+        font-size:14px;
+        display:inline-block;
+        color:white;
+}
+
+.img_text{
+        
+        width:100%;
+        background-color:black;
+        position:absolute
+}
+
+#previous_btn{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 3vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        background-image: url(arrowPreviousIcon.svg);
+        background-repeat:no-repeat;
+        background-size: 50% 50%;
+        background-position:center;
+        cursor:pointer;
+        position:absolute;
+        top:50%;
+        margin-top:-2vw;
+        left:1vw;
+}
+
+#next_btn{
+        width: 3vw;
+        height: 3vw;
+        border-radius: 3vw;
+        background-color: rgba(255, 255, 255, 0.5);
+        background-image: url(arrowNextIcon.svg);
+        background-repeat:no-repeat;
+        background-size: 50% 50%;
+        background-position:center;
+        cursor:pointer;
+        position:absolute;
+        top:50%;
+        margin-top:-2vw;
+        left:94vw;
+}
+
+.navigation_bar{
+        width:100%;
+        max-height:fit-content;
+        margin-top:1vw;
+        margin-bottom:1vw;
+        overflow:hidden;
+        top:0;
+}
+
+.nav_element_container{
+        
+        max-width:fit-content;
+        margin-inline:auto;
+}
+
+.navigation_bar_element{
+        width:16vw;
+        height:16/9;
+        padding:8px;
+        font-family:GoogleSansRegular;
+        margin-inline:2px;
+        border-radius:1vh;
+        border-style:solid;
+        border-width:thin;
+        border-color:#008CBA;
+        background-color:#008CBA;
+        color:white;
+        display:inline-block;
+        vertical-align:center;
+        text-align:center;
+        cursor:pointer;
+}
+
+.svgIcon{
+        width:6vw;
+        height:6vw;
+}
+
+#ourWorkIcon{
+        background-image: url(ourWorkIcon.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+#aboutUsIcon{
+        background-image: url(aboutUsIcon.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+#contactUsIcon{
+        background-image: url(contactUsIcon.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+
+#extraIcon{
+        
+}
+
+.contact_details{
+        width:100%;
+        height:fit-content;
+        overflow:hidden;
+        padding:15px 0px 0px 0px;
+}
+
+#contacting_us{
+        max-width:fit-content;
+        max-height:fit-content;
+        font-family:GoogleSansRegular;
+        margin:auto;
+        padding-inline:32px;
+        line-height:20px;
+        text-align:center;
+}
+
+#phone-and-whatsapp{
+        width:100%;
+        height:fit-content;
+        display:flex;
+        justify-content:center;
+}
+
+#phone{
+        width:fit-content;
+        height:fit-content;
+        text-align:center;
+        font-family:GoogleSansRegular;
+}
+
+#phone-time{
+}
+
+#vertical-divider{
+        width:5px;
+        height:100px;
+        display:inline-block;
+        background-color:black;
+        margin-inline:32px;
+}
+
+#whatsapp{
+        width:fit-content;
+        height:fit-content;
+        text-align:center;
+        font-family:GoogleSansRegular;
+        background-color:skyblue;
+}
+
+#email{
+        width:100%;
+        height:fit-content;
+        text-align:center;
+        font-family:GoogleSansRegular;
+        
+}
+
+#office-address{
+        width:100%;
+        height:fit-content;
+        text-align:center;
+        font-family:GoogleSansRegular;
+}
+
+#contact-form{
+        width:100%;
+        height:fit-content;
+        background-color:grey;
+        text-align:center;
+        font-family:GoogleSansRegular;
+        padding: 10px 0 10px 0;
+}
+
+
+.features{
+        height:50vh;
+        text-align:center;
+}
+
+.footer{
+        
+        height:50vh;
+        background-color: lightgrey;
+        text-align:center;
+}
+
+
+
+
+
+
+
+
+
