@@ -1,0 +1,182 @@
+
+
+@font-face{
+        font-family:"hindi";
+        src: url("E:\PC_Files\Desktop\prime_interiors\mobile\media\font\TiroDevanagariHindi-Regular.ttf");
+}
+
+html{
+        font-size:16px;
+}
+
+body{
+        padding:0;
+        margin:0;
+}
+
+#hero-image{
+        
+        width:100%;
+        height:fit-content;
+        vertical-align:middle;
+}
+
+#logo{
+        
+        width:150px;
+        height: 42px;
+        line-height:42px;
+        font-size:18px;
+        font-weight:bold;
+        margin-top:12px;
+        float:left;
+        text-align:center;
+        position:absolute;
+        top:0;
+        left:0;
+}
+
+#menu{
+        
+        width:fit-content;
+        height: 36px;
+        line-height:36px;
+        position:absolute;
+        top:0;
+        right:0;
+        text-align:center;
+        margin:12px 8px 0px 0px;
+        padding-inline:24px;
+        float:right;
+        border-radius:36px;
+        background-color:white;
+        box-shadow:2px 2px 5px grey;
+}
+
+/*      Setting position of this button according to #hero-image in js.
+        Because we dont want to add parent for this button
+*/
+#hero-button{
+        width:fit-content;
+        height:36px;
+        line-height:36px;
+        padding-inline:36px;
+        position:absolute;
+        border-radius:36px;
+        background-color:white;
+        box-shadow:2px 2px 5px grey;
+}
+
+#image-slider{
+        width:100%;
+        max-height:300px;
+        margin-top:12px;
+        overflow-x:scroll;
+        display:flex;
+}
+
+#image-slider::-webkit-scrollbar{
+        display:none;
+}
+
+.square-image{
+        min-width:300px;
+        min-height:300px;
+        margin-left:4px;
+        margin-right:4px; 
+        border-radius:8px;
+}
+
+#first-card{
+        min-width:200px;
+        min-height:300px;
+        margin-right:4px;
+        font-size:32px;
+        padding-left:16px;
+        
+}
+
+#image1{
+        background-image:url("media/images/square/kitchen.jpg");
+        background-size:100% 100%;
+}
+
+#image2{
+        background-image:url("media/images/square/stool.jpg");
+        background-size:100% 100%;
+}
+
+#image3{
+        background-image:url("media/images/square/bathroom.jpg");
+        background-size:100% 100%;
+}
+
+#image4{
+        background-image:url("media/images/square/cupboard.jpg");
+        background-size:100% 100%;
+}
+
+/*for last space only*/
+#last-card{
+        min-width:100px;
+        min-height:300px;
+        margin-left:4px;
+}
+
+/*need to increase height to show shadow*/
+#button-slider{
+        width:100%;
+        height:36px;
+        display:flex;
+        margin-top:16px;
+        overflow-x:scroll;
+}
+
+#button-slider::-webkit-scrollbar{
+        display:none;
+}
+
+.button{
+        min-width:fit-content;
+        min-height:36px;
+        line-height:36px;
+        padding-inline:36px;
+        background-color:lightgrey;
+        border-radius:8px;
+        margin-inline:4px;
+}
+
+/*      contact details area*/
+#contact-details{
+        width:100%;
+        min-height:200px;
+        /*remove margin-top*/
+        margin-top:32px;
+}
+
+#contact-heading{
+        font-size:24px;
+        margin: 0 auto;
+        padding-top:8px;
+        padding-bottom:8px;
+        text-align:center;
+}
+
+#contact-p{
+        font-size:16px;
+        color:grey;
+}
+
+
+/*      footer area     */
+#footer{
+        width:100%;
+        height:200px;
+}
+
+
+
+
+
+
+
